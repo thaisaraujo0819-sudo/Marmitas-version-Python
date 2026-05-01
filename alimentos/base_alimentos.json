@@ -1,0 +1,258 @@
+{
+  "Proteina_vegetal": {
+    "Feijao": {"prioridade": 3,
+      "Feijao_Carioca": {"modo": "Cozido", "fator_mercado": 0.45, "calorias": 76, "proteina": 4.8, "carboidrato": 13.6, "gordura": 0.5},
+      "Feijao_Preto": {"modo": "Cozido", "fator_mercado": 0.45, "calorias": 77, "proteina": 4.5, "carboidrato": 14.0, "gordura": 0.5},
+      "Feijao_Fradinho": {"modo": "Cozido", "fator_mercado": 0.45, "calorias": 78, "proteina": 5.1, "carboidrato": 14.3, "gordura": 0.6},
+      "Feijao_Branco": {"modo": "Cozido", "fator_mercado": 0.45, "calorias": 83, "proteina": 5.6, "carboidrato": 15.1, "gordura": 0.5}
+    },
+    "Leguminosas_Graos": {"prioridade": 3,
+      "Grao_de_Bico": {"modo": "Cozido", "fator_mercado": 0.50, "calorias": 143, "proteina": 8.4, "carboidrato": 23.2, "gordura": 2.6},
+      "Lentilha": {"modo": "Cozido", "fator_mercado": 0.40, "calorias": 93, "proteina": 6.3, "carboidrato": 16.3, "gordura": 0.5},
+      "Ervilha_Seca": {"modo": "Cozido", "fator_mercado": 0.40, "calorias": 118, "proteina": 8.3, "carboidrato": 21.1, "gordura": 0.4},
+      "Soja_Grao": {"modo": "Cozido", "fator_mercado": 0.40, "calorias": 173, "proteina": 16.6, "carboidrato": 9.9, "gordura": 9.0},
+      "Edamame": {"modo": "Cozido", "fator_mercado": 1.1, "calorias": 122, "proteina": 11.0, "carboidrato": 10.0, "gordura": 5.0},
+      "Quinoa": {"modo": "Cozida", "fator_mercado": 0.35, "calorias": 120, "proteina": 4.4, "carboidrato": 21.3, "gordura": 1.9},
+      "Cuscuz_Marroquino": {"modo": "Preparado", "fator_mercado": 0.40, "calorias": 112, "proteina": 3.8, "carboidrato": 23.0, "gordura": 0.2},
+      "Aveia_Flocos_Agua": {"modo": "Cozida", "fator_mercado": 0.30, "calorias": 71, "proteina": 2.5, "carboidrato": 12.0, "gordura": 1.4}
+    },
+    "Derivados_Ovos": {"prioridade": 1,
+      "Tofu": {"modo": "Grelhado", "fator_mercado": 1.0, "calorias": 64, "proteina": 6.6, "carboidrato": 2.1, "gordura": 3.7},
+      "PTS": {"modo": "Refogada", "fator_mercado": 0.30, "calorias": 91, "proteina": 15.0, "carboidrato": 7.0, "gordura": 0.5},
+      "Ovo_Cozido": {"modo": "Cozido", "fator_mercado": 1.0, "calorias": 133, "proteina": 13.3, "carboidrato": 0.6, "gordura": 8.6, "unidade_medida": "unidade", "peso_por_unidade": 50},
+      "Ovo_Mexido": {"modo": "Mexido", "fator_mercado": 1.0, "calorias": 156, "proteina": 12.6, "carboidrato": 0.8, "gordura": 11.0, "unidade_medida": "unidade", "peso_por_unidade": 50},
+      "Queijo_Minas": {"modo": "In Natura", "fator_mercado": 1.0, "calorias": 240, "proteina": 17.4, "carboidrato": 3.2, "gordura": 17.0},
+      "Cottage": {"modo": "In Natura", "fator_mercado": 1.0, "calorias": 98, "proteina": 11.1, "carboidrato": 3.4, "gordura": 4.3}
+    }
+  },
+  "Proteina_animal": {
+    "Aves": {"prioridade": 1,
+      "Peito_Grelhado": {"modo": "Grelhado", "fator_mercado": 1.6, "calorias": 159, "proteina": 32.0, "carboidrato": 0.0, "gordura": 2.5},
+      "Peito_Desfiado": {"modo": "Cozido/Desfiado", "fator_mercado": 1.4, "calorias": 163, "proteina": 31.5, "carboidrato": 0.0, "gordura": 3.2},
+      "Sobrecoxa": {"modo": "Assada/Grelhada", "fator_mercado": 1.5, "calorias": 167, "proteina": 25.0, "carboidrato": 0.0, "gordura": 6.7},
+      "Coxa_Frango": {"modo": "Assada", "fator_mercado": 1.5, "calorias": 161, "proteina": 26.9, "carboidrato": 0.0, "gordura": 4.8},
+      "Asinha": {"modo": "Assada", "fator_mercado": 1.4, "calorias": 186, "proteina": 23.0, "carboidrato": 0.0, "gordura": 10.0},
+      "Sassami": {"modo": "Grelhado", "fator_mercado": 1.55, "calorias": 155, "proteina": 31.0, "carboidrato": 0.0, "gordura": 2.2}
+    },
+    "Bovinos": {"prioridade": 1,
+      "Patinho": {"modo": "Grelhado/Moido", "fator_mercado": 1.5, "calorias": 219, "proteina": 26.0, "carboidrato": 0.0, "gordura": 7.3},
+      "Musculo": {"modo": "Cozido", "fator_mercado": 1.4, "calorias": 194, "proteina": 31.0, "carboidrato": 0.0, "gordura": 7.0},
+      "Coxao_Mole": {"modo": "Grelhado", "fator_mercado": 1.5, "calorias": 219, "proteina": 32.4, "carboidrato": 0.0, "gordura": 8.9},
+      "Acem_Moido": {"modo": "Refogado", "fator_mercado": 1.5, "calorias": 212, "proteina": 26.7, "carboidrato": 0.0, "gordura": 10.9},
+      "Acem_Cozido": {"modo": "Ensopado", "fator_mercado": 1.4, "calorias": 215, "proteina": 27.3, "carboidrato": 0.0, "gordura": 11.2},
+      "Fraldinha": {"modo": "Assada/Grelhada", "fator_mercado": 1.6, "calorias": 238, "proteina": 26.0, "carboidrato": 0.0, "gordura": 15.0},
+      "Alcatra": {"modo": "Grelhada", "fator_mercado": 1.5, "calorias": 241, "proteina": 31.9, "carboidrato": 0.0, "gordura": 11.7},
+      "File_Mignon": {"modo": "Grelhado", "fator_mercado": 1.5, "calorias": 220, "proteina": 26.0, "carboidrato": 0.0, "gordura": 12.0},
+      "Lagarto": {"modo": "Cozido/Assado", "fator_mercado": 1.4, "calorias": 221, "proteina": 32.9, "carboidrato": 0.0, "gordura": 9.1}
+    },
+    "Suinos": {"prioridade": 1,
+      "Bisteca_Grelhada": {"modo": "Grelhada", "fator_mercado": 1.5, "calorias": 196, "proteina": 28.5, "carboidrato": 0.0, "gordura": 8.4},
+      "Bisteca_Assada": {"modo": "Assada", "fator_mercado": 1.55, "calorias": 215, "proteina": 29.0, "carboidrato": 0.0, "gordura": 10.2},
+      "Lombo": {"modo": "Assado", "fator_mercado": 1.5, "calorias": 210, "proteina": 31.1, "carboidrato": 0.0, "gordura": 8.0},
+      "Filezinho": {"modo": "Grelhado", "fator_mercado": 1.45, "calorias": 165, "proteina": 30.0, "carboidrato": 0.0, "gordura": 4.5},
+      "Pernil": {"modo": "Assado", "fator_mercado": 1.5, "calorias": 220, "proteina": 28.5, "carboidrato": 0.0, "gordura": 11.0}
+    },
+    "Peixes": {"prioridade": 1,
+      "Tilapia": {"modo": "Grelhada", "fator_mercado": 1.3, "calorias": 128, "proteina": 26.0, "carboidrato": 0.0, "gordura": 2.7},
+      "Salmao": {"modo": "Grelhado/Assado", "fator_mercado": 1.25, "calorias": 229, "proteina": 25.0, "carboidrato": 0.0, "gordura": 13.0},
+      "Atum": {"modo": "Grelhado/Enlatado", "fator_mercado": 1.0, "calorias": 116, "proteina": 26.0, "carboidrato": 0.0, "gordura": 0.8}
+    }
+  },
+  "Carboidratos": {
+    "Cereais": {"prioridade": 4,
+      "Arroz_Branco": {"modo": "Cozido", "fator_mercado": 0.40, "calorias": 128, "proteina": 2.5, "carboidrato": 28.1, "gordura": 0.2},
+      "Arroz_Integral": {"modo": "Cozido", "fator_mercado": 0.40, "calorias": 124, "proteina": 2.6, "carboidrato": 25.8, "gordura": 1.0},
+      "Arroz_7_Graos": {"modo": "Cozido", "fator_mercado": 0.40, "calorias": 120, "proteina": 3.5, "carboidrato": 24.0, "gordura": 1.2},
+      "Milho_Verde": {"modo": "Cozido", "fator_mercado": 1.0, "calorias": 98, "proteina": 3.2, "carboidrato": 17.1, "gordura": 2.4}
+    },
+    "Batatas": {"prioridade": 4,
+      "Batatas_Inglesa_Assada": {"modo": "Assada", "fator_mercado": 1.25, "calorias": 93, "proteina": 2.0, "carboidrato": 21.0, "gordura": 0.1},
+      "Batatas_Inglesa_Cozida": {"modo": "Cozida", "fator_mercado": 1.05, "calorias": 52, "proteina": 1.2, "carboidrato": 11.9, "gordura": 0.1},
+      "Batatas_Doce_Assada": {"modo": "Assada", "fator_mercado": 1.25, "calorias": 101, "proteina": 1.0, "carboidrato": 24.0, "gordura": 0.1},
+      "Batatas_Doce_Cozida": {"modo": "Cozida", "fator_mercado": 1.05, "calorias": 77, "proteina": 0.6, "carboidrato": 18.4, "gordura": 0.1}
+    },
+    "Mandioca_Raizes": {"prioridade": 4,
+      "Mandioca_Assada": {"modo": "Assada", "fator_mercado": 1.30, "calorias": 159, "proteina": 1.0, "carboidrato": 38.0, "gordura": 0.3},
+      "Mandioca_Cozida": {"modo": "Cozida", "fator_mercado": 1.10, "calorias": 125, "proteina": 0.6, "carboidrato": 30.1, "gordura": 0.3},
+      "Mandioquinha": {"modo": "Cozida", "fator_mercado": 1.10, "calorias": 80, "proteina": 0.9, "carboidrato": 18.9, "gordura": 0.2},
+      "Inhame": {"modo": "Cozido", "fator_mercado": 1.10, "calorias": 97, "proteina": 1.5, "carboidrato": 23.2, "gordura": 0.2},
+      "Cara": {"modo": "Cozido", "fator_mercado": 1.10, "calorias": 78, "proteina": 1.5, "carboidrato": 18.9, "gordura": 0.1}
+    },
+    "Aboboras": {"prioridade": 4,
+      "Abobora_Cabotia": {"modo": "Cozida/Assada", "fator_mercado": 1.0, "calorias": 48, "proteina": 1.4, "carboidrato": 10.8, "gordura": 0.5},
+      "Abobora_Moranga": {"modo": "Cozida", "fator_mercado": 1.0, "calorias": 20, "proteina": 0.7, "carboidrato": 4.5, "gordura": 0.1},
+      "Abobora_Menina": {"modo": "Cozida", "fator_mercado": 1.0, "calorias": 25, "proteina": 1.0, "carboidrato": 6.0, "gordura": 0.1}
+    },
+    "Macarrao": {"prioridade": 4,
+      "Macarrao_Esparguete": {"modo": "Cozido", "fator_mercado": 0.45, "calorias": 108, "proteina": 3.7, "carboidrato": 22.1, "gordura": 0.5},
+      "Macarrao_Integral": {"modo": "Cozido", "fator_mercado": 0.45, "calorias": 124, "proteina": 5.3, "carboidrato": 26.5, "gordura": 0.8},
+      "Macarrao_Bifum": {"modo": "Cozido", "fator_mercado": 0.40, "calorias": 109, "proteina": 0.9, "carboidrato": 24.0, "gordura": 0.2},
+      "Macarrao_Nhoque_Batata": {"modo": "Cozido", "fator_mercado": 0.85, "calorias": 140, "proteina": 3.0, "carboidrato": 30.0, "gordura": 0.5}
+    },
+    "Massa_Lasanha": {"prioridade": 4,
+      "Massa_Lasanha_Cozida": {"modo": "Cozida", "fator_mercado": 0.50, "calorias": 134, "proteina": 4.8, "carboidrato": 27.0, "gordura": 0.7}
+    },
+    "Paes_Tradicionais": {"prioridade": 4,
+      "Pao_Frances": {"modo": "In Natura", "fator_mercado": 1.0, "calorias": 300, "proteina": 8.0, "carboidrato": 58.0, "gordura": 3.0, "unidade_medida": "unidade", "peso_por_unidade": 50},
+      "Pao_Integral": {"modo": "In Natura", "fator_mercado": 1.0, "calorias": 250, "proteina": 10.0, "carboidrato": 45.0, "gordura": 3.5, "unidade_medida": "fatia", "peso_por_unidade": 25},
+      "Pao_de_Forma_Branco": {"modo": "In Natura", "fator_mercado": 1.0, "calorias": 245, "proteina": 8.0, "carboidrato": 50.0, "gordura": 2.5, "unidade_medida": "fatia", "peso_por_unidade": 25}
+    },
+    "Preparaos_Rapidos": {"prioridade": 4,
+      "Tapioca_Goma": {"modo": "Seca", "fator_mercado": 0.60, "calorias": 240, "proteina": 0.0, "carboidrato": 60.0, "gordura": 0.0},
+      "Rap10_Tradicional": {"modo": "Folha", "fator_mercado": 1.0, "calorias": 290, "proteina": 8.0, "carboidrato": 52.0, "gordura": 6.0, "unidade_medida": "folha", "peso_por_unidade": 40},
+      "Cuscuz_Nordestino_Cozido": {"modo": "Cozido", "fator_mercado": 0.45, "calorias": 113, "proteina": 2.2, "carboidrato": 25.0, "gordura": 0.5}
+    },
+    "Cereais_Matinais": {"prioridade": 4,
+      "Aveia_em_Flocos": {"modo": "Seco", "fator_mercado": 1.0, "calorias": 394, "proteina": 13.9, "carboidrato": 66.6, "gordura": 8.5},
+      "Granola_Tradicional": {"modo": "Seco", "fator_mercado": 1.0, "calorias": 440, "proteina": 10.0, "carboidrato": 65.0, "gordura": 15.0},
+      "Corn_Flakes_Sem_Acucar": {"modo": "Seco", "fator_mercado": 1.0, "calorias": 370, "proteina": 7.0, "carboidrato": 84.0, "gordura": 0.5},
+      "Sucrilhos_Original": {"modo": "Seco", "fator_mercado": 1.0, "calorias": 377, "proteina": 4.5, "carboidrato": 89.0, "gordura": 0.4}
+    }
+  },
+  "Preparacoes_compostas": {
+    "Strogonoffs": {"prioridade": 1,
+      "Frango_Ricota": {"proporcao": {"frango": 0.60, "ricota": 0.25, "ketchup": 0.05, "mostarda": 0.05, "cogumelo": 0.05}, "calorias": 125, "proteina": 19.5, "carboidrato": 3.2, "gordura": 3.8},
+      "Frango_Aveia": {"proporcao": {"frango": 0.60, "aveia": 0.30, "ketchup": 0.05, "mostarda": 0.05}, "calorias": 118, "proteina": 19.8, "carboidrato": 5.4, "gordura": 2.1},
+      "Frango_Leite": {"proporcao": {"frango": 0.60, "leite": 0.30, "ketchup": 0.05, "mostarda": 0.05}, "calorias": 145, "proteina": 19.2, "carboidrato": 4.1, "gordura": 5.9},
+      "Carne_Ricota": {"proporcao": {"patinho": 0.60, "ricota": 0.30, "ketchup": 0.05, "mostarda": 0.05}, "calorias": 162, "proteina": 20.1, "carboidrato": 4.5, "gordura": 6.8},
+      "Carne_Aveia": {"proporcao": {"patinho": 0.60, "aveia": 0.30, "ketchup": 0.05, "mostarda": 0.05}, "calorias": 155, "proteina": 19.5, "carboidrato": 7.2, "gordura": 5.1},
+      "Carne_Leite": {"proporcao": {"patinho": 0.60, "leite": 0.30, "ketchup": 0.05, "mostarda": 0.05}, "calorias": 184, "proteina": 19.0, "carboidrato": 5.2, "gordura": 9.5},
+      "parmegiana_frango_molho_caseiro": {"proporcao": {"peito_frango": 0.60, "farinha_rosca_empanar": 0.15, "molho_tomate_caseiro": 0.15, "queijo_zero_lactose": 0.10}, "calorias": 198, "proteina": 22.4, "carboidrato": 12.1, "gordura": 6.7},
+      "parmegiana_carne_molho_caseiro": {"proporcao": {"patinho_bovino": 0.60, "farinha_rosca_empanar": 0.15, "molho_tomate_caseiro": 0.15, "queijo_zero_lactose": 0.10}, "calorias": 215, "proteina": 24.1, "carboidrato": 11.8, "gordura": 7.9},
+      "parmegiana_frango_sache": {"proporcao": {"peito_frango": 0.60, "farinha_rosca_empanar": 0.15, "molho_tomate_sache": 0.15, "queijo_zero_lactose": 0.10}, "calorias": 204, "proteina": 21.8, "carboidrato": 13.5, "gordura": 6.8},
+      "parmegiana_carne_sache": {"proporcao": {"patinho_bovino": 0.60, "farinha_rosca_empanar": 0.15, "molho_tomate_sache": 0.15, "queijo_zero_lactose": 0.10}, "calorias": 221, "proteina": 23.5, "carboidrato": 13.2, "gordura": 8.1},
+      "parmegiana_file_mignon_caseiro": {"proporcao": {"file_mignon": 0.60, "farinha_rosca_empanar": 0.15, "molho_tomate_caseiro": 0.15, "queijo_zero_lactose": 0.10}, "calorias": 238, "proteina": 22.9, "carboidrato": 11.5, "gordura": 11.2},
+      "parmegiana_file_mignon_sache": {"proporcao": {"file_mignon": 0.60, "farinha_rosca_empanar": 0.15, "molho_tomate_sache": 0.15, "queijo_zero_lactose": 0.10}, "calorias": 244, "proteina": 22.3, "carboidrato": 12.9, "gordura": 11.4},
+      "Pure_Batata": { "proporcao": { "batata": 0.80, "leite": 0.15, "manteiga": 0.05 }, "calorias": 81, "proteina": 1.9, "carboidrato": 18.1, "gordura": 0.3 },
+      "Arroz_Legumes": { "proporcao": { "arroz_branco": 0.75, "legumes_mistos": 0.25 }, "calorias": 99, "proteina": 2.5, "carboidrato": 19.1, "gordura": 1.4 }
+    },
+    "Lasanhas_e_Massas": {"prioridade": 4,
+      "Lasanha_Acem": {"proporcao": {"massa": 0.25, "acem_moido": 0.40, "queijo": 0.20, "molho": 0.15}, "calorias": 198, "proteina": 18.5, "carboidrato": 12.0, "gordura": 8.5},
+      "Macarrao_Salsicha": {"proporcao": {"macarrao": 0.50, "salsicha": 0.30, "molho": 0.20}, "calorias": 174, "proteina": 8.2, "carboidrato": 14.5, "gordura": 9.8},
+      "Macarrao_Ricota_Frango": {"proporcao": {"macarrao": 0.45, "frango": 0.35, "ricota": 0.20}, "calorias": 142, "proteina": 16.1, "carboidrato": 11.5, "gordura": 3.4}
+    }
+  },
+ "Laticinios,_Frio_e_Derivados": {
+    "Queijos_e_Frios": {"prioridade": 4,
+      "Queijo_Mussarela": {"modo": "Fatiado", "fator_mercado": 1.0, "calorias": 280, "proteina": 22.0, "carboidrato": 2.0, "gordura": 20.0, "unidade_medida": "fatia", "peso_por_unidade": 15},
+      "Queijo_Prato": {"modo": "Fatiado", "fator_mercado": 1.0, "calorias": 340, "proteina": 23.0, "carboidrato": 1.5, "gordura": 27.0, "unidade_medida": "fatia", "peso_por_unidade": 15},
+      "Queijo_Parmesao": {"modo": "Ralado", "fator_mercado": 1.0, "calorias": 431, "proteina": 35.0, "carboidrato": 4.1, "gordura": 28.0},
+      "Presunto_Cozido": {"modo": "Fatiado", "fator_mercado": 1.0, "calorias": 94, "proteina": 14.0, "carboidrato": 2.0, "gordura": 3.0, "unidade_medida": "fatia", "peso_por_unidade": 15},
+      "Peito_de_Peru": {"modo": "Fatiado", "fator_mercado": 1.0, "calorias": 98, "proteina": 18.0, "carboidrato": 2.0, "gordura": 2.0, "unidade_medida": "fatia", "peso_por_unidade": 15}
+    },
+    "Cremosos_e_Iogurtes": {"prioridade": 4,
+      "Creme_de_Ricota": {"modo": "Pastoso", "fator_mercado": 1.0, "calorias": 140, "proteina": 9.0, "carboidrato": 3.5, "gordura": 10.5},
+      "Requeijao_Luz": {"modo": "Pastoso", "fator_mercado": 1.0, "calorias": 170, "proteina": 10.0, "carboidrato": 3.0, "gordura": 13.0},
+      "Requeijao_Cremoso": {"modo": "Pastoso", "fator_mercado": 1.0, "calorias": 257, "proteina": 9.5, "carboidrato": 3.5, "gordura": 23.0},
+      "Iogurte_Natural_Integral": {"modo": "Cremoso", "fator_mercado": 1.0, "calorias": 63, "proteina": 4.0, "carboidrato": 5.0, "gordura": 3.4, "unidade_medida": "pote", "peso_por_unidade": 170},
+      "Iogurte_Desnatado": {"modo": "Cremoso", "fator_mercado": 1.0, "calorias": 41, "proteina": 4.0, "carboidrato": 6.0, "gordura": 0.0, "unidade_medida": "pote", "peso_por_unidade": 170}
+    }
+  },
+  "Vegetais_e_Saladas": {
+    "Folhosos": {"prioridade": 2,
+      "Alface_Americana": {"modo": "In Natura", "fator_mercado": 1.15, "calorias": 9, "proteina": 0.6, "carboidrato": 1.7, "gordura": 0.1},
+      "Alface_Crespa": {"modo": "In Natura", "fator_mercado": 1.15, "calorias": 11, "proteina": 1.3, "carboidrato": 1.7, "gordura": 0.2},
+      "Rucula": {"modo": "In Natura", "fator_mercado": 1.20, "calorias": 13, "proteina": 1.8, "carboidrato": 2.2, "gordura": 0.1},
+      "Couve_Manteiga": {"modo": "Refogada", "fator_mercado": 1.30, "calorias": 90, "proteina": 4.0, "carboidrato": 10.0, "gordura": 4.8},
+      "Espinafre": {"modo": "Refogado", "fator_mercado": 1.40, "calorias": 67, "proteina": 2.7, "carboidrato": 4.2, "gordura": 4.5}
+    },
+    "Legumes_Salada": {"prioridade": 2,
+      "Tomate_Salada": {"modo": "In Natura", "fator_mercado": 1.10, "calorias": 15, "proteina": 0.8, "carboidrato": 3.1, "gordura": 0.2},
+      "Pepino_Japones": {"modo": "In Natura", "fator_mercado": 1.10, "calorias": 10, "proteina": 0.7, "carboidrato": 2.0, "gordura": 0.1},
+      "Cenoura_Ralada": {"modo": "In Natura", "fator_mercado": 1.25, "calorias": 34, "proteina": 1.3, "carboidrato": 7.7, "gordura": 0.2},
+      "Cenoura_Cozida": {"modo": "Cozida", "fator_mercado": 1.10, "calorias": 30, "proteina": 0.8, "carboidrato": 6.7, "gordura": 0.2},
+      "Beterraba_Cozida": {"modo": "Cozida", "fator_mercado": 1.20, "calorias": 44, "proteina": 1.1, "carboidrato": 9.6, "gordura": 0.1},
+      "Brocolis": {"modo": "Vapor/Cozido", "fator_mercado": 1.60, "calorias": 25, "proteina": 2.1, "carboidrato": 4.4, "gordura": 0.3},
+      "Couve_Flor": {"modo": "Vapor/Cozida", "fator_mercado": 1.60, "calorias": 19, "proteina": 1.2, "carboidrato": 3.9, "gordura": 0.2},
+      "Abobrinha_Menina": {"modo": "Refogada", "fator_mercado": 1.15, "calorias": 24, "proteina": 1.1, "carboidrato": 4.9, "gordura": 0.2},
+      "Chuchu": {"modo": "Cozido", "fator_mercado": 1.40, "calorias": 19, "proteina": 0.4, "carboidrato": 4.1, "gordura": 0.0}
+    }
+  },
+  "Bebidas": {
+    "Sucos_Naturais": {"prioridade": 6,
+    "Suco_Laranja_Natural": {"modo": "Espremido", "fator_mercado": 2.0, "calorias": 45, "proteina": 0.7, "carboidrato": 10.4, "gordura": 0.2, "unidade_medida": "ml"},
+    "Suco_Abacaxi_Hortela": {"modo": "Batido", "fator_mercado": 1.5, "calorias": 48, "proteina": 0.3, "carboidrato": 12.0, "gordura": 0.1, "unidade_medida": "ml"},
+    "Suco_Melancia": {"modo": "Batido", "fator_mercado": 1.6, "calorias": 30, "proteina": 0.6, "carboidrato": 7.5, "gordura": 0.2, "unidade_medida": "ml"},
+    "Suco_Limao_Puro": {"modo": "Espremido", "fator_mercado": 2.2, "calorias": 12, "proteina": 0.1, "carboidrato": 4.0, "gordura": 0.0, "unidade_medida": "ml"},
+    "Suco_Uva_Integral": {"modo": "Pronto", "fator_mercado": 1.0, "calorias": 60, "proteina": 0.0, "carboidrato": 14.0, "gordura": 0.0, "unidade_medida": "ml"}
+    },
+    "Refrescos_e_Chas": {"prioridade": 6,
+    "Agua_de_Coco": {"modo": "In Natura", "fator_mercado": 1.0, "calorias": 19, "proteina": 0.7, "carboidrato": 3.7, "gordura": 0.2, "unidade_medida": "ml"},
+    "Cha_Mate_Batido": {"modo": "Preparado", "fator_mercado": 1.0, "calorias": 30, "proteina": 0.0, "carboidrato": 8.0, "gordura": 0.0, "unidade_medida": "ml"}
+    },
+    "Refrigerantes": {"prioridade": 6,
+    "Coca_Cola_Normal": {"modo": "Gelado", "fator_mercado": 1.0, "calorias": 42, "proteina": 0.0, "carboidrato": 10.5, "gordura": 0.0, "unidade_medida": "ml"},
+    "Coca_Cola_Zero": {"modo": "Gelado", "fator_mercado": 1.0, "calorias": 0, "proteina": 0.0, "carboidrato": 0.0, "gordura": 0.0, "unidade_medida": "ml"},
+    "Guarana_Normal": {"modo": "Gelado", "fator_mercado": 1.0, "calorias": 40, "proteina": 0.0, "carboidrato": 10.0, "gordura": 0.0, "unidade_medida": "ml"},
+    "Guarana_Zero": {"modo": "Gelado", "fator_mercado": 1.0, "calorias": 0, "proteina": 0.0, "carboidrato": 0.0, "gordura": 0.0, "unidade_medida": "ml"}
+    },
+    "Leites_e_Achocolatados": {"prioridade": 6,
+      "Leite_Integral_200ml": {"modo": "Liquido", "fator_mercado": 1.0, "calorias": 120, "proteina": 6.0, "carboidrato": 10.0, "gordura": 6.0, "unidade_medida": "ml"},
+      "Leite_Desnatado_200ml": {"modo": "Liquido", "fator_mercado": 1.0, "calorias": 70, "proteina": 6.0, "carboidrato": 10.0, "gordura": 0.0, "unidade_medida": "ml"},
+      "Toddy_Po_20g": {"modo": "Po", "fator_mercado": 1.0, "calorias": 80, "proteina": 0.5, "carboidrato": 19.0, "gordura": 0.5},
+      "Nescau_Po_20g": {"modo": "Po", "fator_mercado": 1.0, "calorias": 74, "proteina": 0.7, "carboidrato": 17.0, "gordura": 0.4},
+      "Leite_com_Toddy_Pronto": {"modo": "Liquido", "fator_mercado": 1.0, "calorias": 200, "proteina": 6.5, "carboidrato": 29.0, "gordura": 6.5, "unidade_medida": "ml"}
+    }
+},
+  "Sobremesas": {
+    "Gelatinas_e_Pudins": {"prioridade": 7,
+    "Gelatina_Comum": {"modo": "Preparada", "fator_mercado": 1.0, "calorias": 60, "proteina": 1.5, "carboidrato": 14.0, "gordura": 0.0},
+    "Gelatina_Diet": {"modo": "Preparada", "fator_mercado": 1.0, "calorias": 7, "proteina": 1.4, "carboidrato": 0.0, "gordura": 0.0},
+    "Pudim_Leite_Condensado": {"modo": "Assado", "fator_mercado": 1.0, "calorias": 320, "proteina": 7.0, "carboidrato": 50.0, "gordura": 11.0, "unidade_medida": "fatia", "peso_por_unidade": 100}
+    },
+    "Chocolates_e_Doces": {"prioridade": 7,
+    "Chocolate_Meio_Amargo": {"modo": "In Natura", "fator_mercado": 1.0, "calorias": 530, "proteina": 5.0, "carboidrato": 55.0, "gordura": 32.0, "unidade_medida": "quadrado", "peso_por_unidade": 6},
+    "Doce_de_Leite": {"modo": "Pastoso", "fator_mercado": 1.0, "calorias": 315, "proteina": 6.0, "carboidrato": 55.0, "gordura": 7.5},
+    "Pacoca_Unidade_20g": {"modo": "In Natura", "fator_mercado": 1.0, "calorias": 480, "proteina": 12.0, "carboidrato": 50.0, "gordura": 28.0, "unidade_medida": "unidade", "peso_por_unidade": 20}
+    },
+    "Sorvetes": {"prioridade": 7,
+    "Sorvete_Creme": {"modo": "Gelado", "fator_mercado": 1.0, "calorias": 200, "proteina": 3.5, "carboidrato": 24.0, "gordura": 10.0, "unidade_medida": "bola", "peso_por_unidade": 60},
+    "Sorvete_Frutas": {"modo": "Gelado", "fator_mercado": 1.0, "calorias": 130, "proteina": 0.5, "carboidrato": 32.0, "gordura": 0.0, "unidade_medida": "bola", "peso_por_unidade": 60}
+    },
+    "Doces_Festivos": {"prioridade": 7,
+    "Brigadeiro_20g": {"modo": "Enrolado", "fator_mercado": 1.0, "calorias": 60, "proteina": 1.2, "carboidrato": 9.0, "gordura": 2.5, "unidade_medida": "unidade", "peso_por_unidade": 20},
+    "Beijinho_20g": {"modo": "Enrolado", "fator_mercado": 1.0, "calorias": 65, "proteina": 1.0, "carboidrato": 8.5, "gordura": 3.0, "unidade_medida": "unidade", "peso_por_unidade": 20},
+    "Torta_de_Limao": {"modo": "Fatia", "fator_mercado": 1.0, "calorias": 260, "proteina": 4.5, "carboidrato": 35.0, "gordura": 12.0, "unidade_medida": "fatia", "peso_por_unidade": 100}
+    },
+    "Sobremesas_Caseiras": {"prioridade": 7,
+    "Mousse_Tradicional": {"modo": "Gelatina/L.Condensado", "fator_mercado": 1.0, "calorias": 210, "proteina": 3.5, "carboidrato": 28.0, "gordura": 9.5},
+    "Mousse_Fit_Fruta": {"modo": "Iogurte/Leite_Po_Zero", "fator_mercado": 1.0, "calorias": 95, "proteina": 7.5, "carboidrato": 14.0, "gordura": 0.8},
+    "Pave_de_Limao_Fit": {"modo": "Iogurte/Leite_Po/Bolacha", "fator_mercado": 1.0, "calorias": 130, "proteina": 8.0, "carboidrato": 22.0, "gordura": 1.5}
+    },
+    "Sobremesas_Proteicas": {"prioridade": 7,
+    "Mousse_Limao_Whey": {"modo": "Whey/Iogurte/Limao", "fator_mercado": 1.0, "calorias": 110, "proteina": 15.0, "carboidrato": 8.0, "gordura": 2.0},
+    "Mousse_Maracuja_Whey": {"modo": "Whey/Iogurte/Concentrado", "fator_mercado": 1.0, "calorias": 115, "proteina": 15.0, "carboidrato": 9.5, "gordura": 2.2},
+    "Cheesecake_Fit_Frutas_Vermelhas": {"modo": "Creme_Ricota/Whey/Geleia", "fator_mercado": 1.0, "calorias": 140, "proteina": 12.0, "carboidrato": 10.0, "gordura": 4.5},
+    "Creme_Abacate_com_Whey": {"modo": "Batido", "fator_mercado": 1.0, "calorias": 180, "proteina": 14.0, "carboidrato": 7.0, "gordura": 11.0}
+    },
+    "Lanches_de_Banana_e_Cookies": {"prioridade": 7,
+    "Cookie_Aveia_e_Banana_Caseiro": {"modo": "Assado", "fator_mercado": 1.0, "calorias": 85, "proteina": 2.0, "carboidrato": 15.0, "gordura": 2.5, "unidade_medida": "unidade", "peso_por_unidade": 30},
+    "Banana_com_Whey_e_Canela": {"modo": "Micro-ondas", "fator_mercado": 1.0, "calorias": 160, "proteina": 16.0, "carboidrato": 22.0, "gordura": 1.5},
+    "Panqueca_Banana_Proteica": {"modo": "Grelhada", "fator_mercado": 1.0, "calorias": 190, "proteina": 18.0, "carboidrato": 24.0, "gordura": 3.0},
+    "Cookie_Proteico_Whey": {"modo": "Assado", "fator_mercado": 1.0, "calorias": 110, "proteina": 10.0, "carboidrato": 12.0, "gordura": 4.0, "unidade_medida": "unidade", "peso_por_unidade": 30}
+    },
+    "Bebidas_Citricas_Proteicas": {"prioridade": 7,
+    "Pink_Lemonade_Whey": {"modo": "Batido_com_Gelo", "fator_mercado": 1.0, "calorias": 90, "proteina": 20.0, "carboidrato": 3.0, "gordura": 0.5, "unidade_medida": "ml"},
+    "Smoothie_Abacaxi_Whey": {"modo": "Batido", "fator_mercado": 1.0, "calorias": 130, "proteina": 21.0, "carboidrato": 11.0, "gordura": 0.4, "unidade_medida": "ml"}
+    }
+  },
+  "Hortifruti": {
+    "Frutas_Frescas": {"prioridade": 5,
+      "Banana_Prata": {"modo": "In Natura", "fator_mercado": 1.40, "calorias": 98, "proteina": 1.3, "carboidrato": 26.0, "gordura": 0.3, "unidade_medida": "unidade", "peso_por_unidade": 70},
+      "Mamao_Papaia": {"modo": "In Natura", "fator_mercado": 1.35, "calorias": 40, "proteina": 0.5, "carboidrato": 10.0, "gordura": 0.1},
+      "Maca_com_Casca": {"modo": "In Natura", "fator_mercado": 1.10, "calorias": 52, "proteina": 0.3, "carboidrato": 13.8, "gordura": 0.2, "unidade_medida": "unidade", "peso_por_unidade": 130},
+      "Uva_Thompson_Sem_Semente": {"modo": "In Natura", "fator_mercado": 1.05, "calorias": 69, "proteina": 0.7, "carboidrato": 18.0, "gordura": 0.2},
+      "Morango": {"modo": "In Natura", "fator_mercado": 1.05, "calorias": 30, "proteina": 0.9, "carboidrato": 6.8, "gordura": 0.3},
+      "Abacate": {"modo": "In Natura", "fator_mercado": 1.50, "calorias": 160, "proteina": 2.0, "carboidrato": 8.5, "gordura": 14.7},
+      "Melancia": {"modo": "In Natura", "fator_mercado": 1.50, "calorias": 30, "proteina": 0.6, "carboidrato": 7.5, "gordura": 0.2},
+      "Melao_Amarelo": {"modo": "In Natura", "fator_mercado": 1.30, "calorias": 34, "proteina": 0.8, "carboidrato": 8.0, "gordura": 0.0}
+    }
+  },
+  "Complementos_e_Espalháveis": {
+    "Gorduras_e_Doces": {"prioridade": 6,
+      "Manteiga_com_Sal": {"modo": "Pastoso", "fator_mercado": 1.0, "calorias": 717, "proteina": 0.8, "carboidrato": 0.1, "gordura": 81.0},
+      "Margarina_Vegetal": {"modo": "Pastoso", "fator_mercado": 1.0, "calorias": 710, "proteina": 0.0, "carboidrato": 0.0, "gordura": 80.0},
+      "Geleia_de_Frutas": {"modo": "Pastoso", "fator_mercado": 1.0, "calorias": 240, "proteina": 0.5, "carboidrato": 60.0, "gordura": 0.1}
+    }
+  }
+}

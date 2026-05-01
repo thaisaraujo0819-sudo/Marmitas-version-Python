@@ -1,0 +1,178 @@
+{
+  "regras_por_grupo": {
+    "Proteina_animal": { "min_g": 70, "max_g": 180, "incremento": 5 },
+    "Acompanhamento": { "min_g": 30, "max_g": 150, "incremento": 5 },
+    "Bebidas": { "min_g": 100, "max_g": 300, "incremento": 50 },
+    "Vegetais": { "min_g": 50, "max_g": 150, "incremento": 10 },
+    "Legumes": { "min_g": 60, "max_g": 180, "incremento": 10 },
+    "Sobremesas": { "min_g": 20, "max_g": 120, "incremento": 5 }
+  },
+  "regras_por_item_especifico": {
+    "Peito Grelhado":   { "min_g": 60, "max_g": 180, "incremento": 1 },
+    "Peito Desfiado":   { "min_g": 60, "max_g": 180, "incremento": 1 },
+    "Sobrecoxa":        { "min_g": 80, "max_g": 180, "incremento": 1 },
+    "Coxa Frango":      { "min_g": 80, "max_g": 180, "incremento": 1 },
+    "Asinha":           { "min_g": 80, "max_g": 180, "incremento": 1 },
+    "Sassami":          { "min_g": 80, "max_g": 180, "incremento": 1 },
+
+    "Patinho":          { "min_g": 80, "max_g": 180, "incremento": 1 },
+    "Musculo":          { "min_g": 80, "max_g": 180, "incremento": 1 },
+    "Coxao Mole":       { "min_g": 80, "max_g": 180, "incremento": 1 },
+    "Acem Moido":       { "min_g": 60, "max_g": 180, "incremento": 1 },
+    "Acem Cozido":      { "min_g": 80, "max_g": 180, "incremento": 1 },
+    "Fraldinha":        { "min_g": 80, "max_g": 180, "incremento": 1 },
+    "Alcatra":          { "min_g": 80, "max_g": 180, "incremento": 1 },
+    "File Mignon":      { "min_g": 80, "max_g": 180, "incremento": 1 },
+    "Lagarto":          { "min_g": 80, "max_g": 180, "incremento": 1 },
+
+    "Bisteca Grelhada": { "min_g": 80, "max_g": 180, "incremento": 1 },
+    "Bisteca Assada":   { "min_g": 80, "max_g": 180, "incremento": 1 },
+    "Lombo":            { "min_g": 80, "max_g": 180, "incremento": 1 },
+    "Filezinho":        { "min_g": 80, "max_g": 180, "incremento": 1 },
+    "Pernil":           { "min_g": 80, "max_g": 180, "incremento": 1 },
+
+    "Tilapia":          { "min_g": 80, "max_g": 180, "incremento": 1 },
+    "Salmao":           { "min_g": 80, "max_g": 180, "incremento": 1 },
+    "Atum":             { "min_g": 80, "max_g": 180, "incremento": 1 },
+
+    "Feijao Carioca":   { "min_g": 50, "max_g": 180, "incremento": 1 },
+    "Feijao Preto":     { "min_g": 50, "max_g": 180, "incremento": 1 },
+    "Feijao Fradinho":  { "min_g": 50, "max_g": 180, "incremento": 1 },
+    "Feijao Branco":    { "min_g": 50, "max_g": 180, "incremento": 1 },
+
+    "Grao de Bico":     { "min_g": 60, "max_g": 180, "incremento": 1 },
+    "Lentilha":         { "min_g": 60, "max_g": 180, "incremento": 1 },
+    "Ervilha Seca":     { "min_g": 60, "max_g": 180, "incremento": 1 },
+    "Soja Grao":        { "min_g": 60, "max_g": 180, "incremento": 1 },
+    "Edamame":          { "min_g": 60, "max_g": 180, "incremento": 1 },
+    "Quinoa":           { "min_g": 60, "max_g": 180, "incremento": 1 },
+    "Cuscuz Marroquino":{ "min_g": 60, "max_g": 180, "incremento": 1 },
+    "Aveia Flocos_Agua":{ "min_g": 40, "max_g": 120, "incremento": 1 },
+
+    "Tofu":             { "min_g": 60, "max_g": 180, "incremento": 1 },
+    "PTS":              { "min_g": 60, "max_g": 180, "incremento": 1 },
+    "Queijo Minas":     { "min_g": 30, "max_g": 80,  "incremento": 1 },
+    "Cottage":          { "min_g": 40, "max_g": 120, "incremento": 1 },
+
+    "Arroz Branco":     { "min_g": 30, "max_g": 80, "incremento": 1 },
+    "Arroz Integral":   { "min_g": 30, "max_g": 80, "incremento": 1 },
+    "Arroz 7 Graos":    { "min_g": 30, "max_g": 80, "incremento": 1 },
+    "Milho Verde":      { "min_g": 40, "max_g": 120, "incremento": 1 },
+
+    "Batatas Inglesa_Assada": { "min_g": 60, "max_g": 200, "incremento": 1 },
+    "Batatas Inglesa_Cozida": { "min_g": 60, "max_g": 200, "incremento": 1 },
+    "Batatas Doce_Assada":    { "min_g": 60, "max_g": 200, "incremento": 1 },
+    "Batatas Doce_Cozida":    { "min_g": 60, "max_g": 200, "incremento": 1 },
+
+    "Mandioca Assada":  { "min_g": 60, "max_g": 200, "incremento": 1 },
+    "Mandioca Cozida":  { "min_g": 60, "max_g": 200, "incremento": 1 },
+    "Mandioquinha":     { "min_g": 60, "max_g": 180, "incremento": 1 },
+    "Inhame":           { "min_g": 60, "max_g": 180, "incremento": 1 },
+    "Cara":             { "min_g": 60, "max_g": 180, "incremento": 1 },
+
+    "Abobora Cabotia":  { "min_g": 60, "max_g": 200, "incremento": 1 },
+    "Abobora Moranga":  { "min_g": 60, "max_g": 200, "incremento": 1 },
+    "Abobora Menina":   { "min_g": 60, "max_g": 200, "incremento": 1 },
+
+    "Macarrao Esparguete":      { "min_g": 30, "max_g": 180, "incremento": 1 },
+    "Macarrao Integral":        { "min_g": 30, "max_g": 180, "incremento": 1 },
+    "Macarrao Bifum":           { "min_g": 30, "max_g": 180, "incremento": 1 },
+    "Macarrao Nhoque_Batata":   { "min_g": 40, "max_g": 200, "incremento": 1 },
+
+    "Pure Batata":      { "min_g": 60, "max_g": 200, "incremento": 1 },
+    "Arroz Legumes":    { "min_g": 60, "max_g": 180, "incremento": 1 },
+    "ovo cozido": { "peso_un": 50, "min_un": 1, "max_un": 3 },
+    "ovo mexido": { "peso_un": 50, "min_un": 1, "max_un": 3 },
+
+    "pao frances": { "peso_un": 50, "min_un": 1, "max_un": 2 },
+    "pao integral": { "peso_un": 25, "min_un": 1, "max_un": 2 },
+    "pao de forma branco": { "peso_un": 25, "min_un": 1, "max_un": 2 },
+    "rap10 tradicional": { "peso_un": 40, "min_un": 1, "max_un": 2 },
+
+    "queijo mussarela": { "peso_un": 15, "min_un": 1, "max_un": 4 },
+    "queijo prato": { "peso_un": 15, "min_un": 1, "max_un": 4 },
+    "presunto cozido": { "peso_un": 15, "min_un": 1, "max_un": 4 },
+    "peito de peru": { "peso_un": 15, "min_un": 1, "max_un": 4 },
+
+    "iogurte natural integral": { "peso_un": 170, "min_un": 1, "max_un": 2 },
+    "iogurte desnatado": { "peso_un": 170, "min_un": 1, "max_un": 2 },
+
+    "banana prata": { "peso_un": 70, "min_un": 1, "max_un": 2 },
+    "maca com casca": { "peso_un": 130, "min_un": 1, "max_un": 1 },
+
+    "suco laranja natural": { "min_g": 100, "max_g": 300, "incremento": 50 },
+    "suco abacaxi hortela": { "min_g": 100, "max_g": 300, "incremento": 50 },
+    "suco melancia": { "min_g": 100, "max_g": 350, "incremento": 50 },
+    "suco limao puro": { "min_g": 100, "max_g": 200, "incremento": 50 },
+    "suco uva integral": { "min_g": 100, "max_g": 250, "incremento": 50 },
+    "agua de coco": { "min_g": 100, "max_g": 300, "incremento": 50 },
+    "cha mate batido": { "min_g": 100, "max_g": 300, "incremento": 50 },
+    "coca cola normal": { "min_g": 100, "max_g": 350, "incremento": 50 },
+    "coca cola zero": { "min_g": 100, "max_g": 350, "incremento": 50 },
+    "guarana normal": { "min_g": 100, "max_g": 350, "incremento": 50 },
+    "guarana zero": { "min_g": 100, "max_g": 350, "incremento": 50 },
+
+    "leite integral 200ml": { "peso_un": 100, "min_un": 1, "max_un": 2 },
+    "leite desnatado 200ml": { "peso_un": 100, "min_un": 1, "max_un": 2 },
+    "leite com toddy pronto": { "peso_un": 100, "min_un": 1, "max_un": 2 },
+
+    "alface americana": { "min_g": 10, "max_g": 90, "incremento": 10 },
+    "alface crespa": { "min_g": 10, "max_g": 90, "incremento": 10 },
+    "rucula": { "min_g": 10, "max_g": 90, "incremento": 10 },
+    "couve manteiga": { "min_g": 10, "max_g": 90, "incremento": 10 },
+    "espinafre": { "min_g": 10, "max_g": 100, "incremento": 10 },
+
+    "tomate salada": { "min_g": 40, "max_g": 150, "incremento": 10 },
+    "pepino japones": { "min_g": 40, "max_g": 150, "incremento": 10 },
+    "cenoura ralada": { "min_g": 40, "max_g": 120, "incremento": 10 },
+    "cenoura cozida": { "min_g": 40, "max_g": 150, "incremento": 10 },
+    "beterraba cozida": { "min_g": 40, "max_g": 150, "incremento": 10 },
+    "brocolis": { "min_g": 40, "max_g": 150, "incremento": 10 },
+    "couve flor": { "min_g": 40, "max_g": 150, "incremento": 10 },
+    "abobrinha menina": { "min_g": 40, "max_g": 150, "incremento": 10 },
+    "chuchu": { "min_g": 40, "max_g": 150, "incremento": 10 },
+
+    "pacoca unidade 20g": { "peso_un": 20, "min_un": 1, "max_un": 2 },
+    "brigadeiro 20g": { "peso_un": 20, "min_un": 1, "max_un": 3 },
+    "beijinho 20g": { "peso_un": 20, "min_un": 1, "max_un": 3 },
+    "chocolate meio amargo": { "peso_un": 6, "min_un": 2, "max_un": 6 },
+    "cookie aveia e banana caseiro": { "peso_un": 30, "min_un": 1, "max_un": 2 },
+    "cookie proteico whey": { "peso_un": 30, "min_un": 1, "max_un": 2 },
+    "sorvete creme": { "peso_un": 60, "min_un": 1, "max_un": 2 },
+    "sorvete frutas": { "peso_un": 60, "min_un": 1, "max_un": 2 },
+    "pudim leite condensado": { "peso_un": 100, "min_un": 1, "max_un": 1 },
+    "torta de limao": { "peso_un": 100, "min_un": 1, "max_un": 1 },
+    "queijo parmesao": { "min_g": 5, "max_g": 20, "incremento": 5 },
+    "creme de ricota": { "min_g": 10, "max_g": 25, "incremento": 1 },
+    "requeijao luz": { "min_g": 10, "max_g": 25, "incremento": 1 },
+    "requeijao cremoso": { "min_g": 10, "max_g": 25, "incremento": 1 },
+
+    "toddy po 20g": { "peso_un": 20, "min_un": 1, "max_un": 2 },
+    "nescau po 20g": { "peso_un": 20, "min_un": 1, "max_un": 2 },
+
+    "mamao papaia": { "min_g": 40, "max_g": 200, "incremento": 10 },
+    "uva thompson sem semente": { "min_g": 40, "max_g": 160, "incremento": 10 },
+    "morango": { "min_g": 40, "max_g": 350, "incremento": 10 },
+    "abacate": { "min_g": 40, "max_g": 120, "incremento": 10 },
+    "melancia": { "min_g": 40, "max_g": 350, "incremento": 10 },
+    "melao amarelo": { "min_g": 40, "max_g": 220, "incremento": 10 },
+
+    "pink lemonade whey": { "min_g": 200, "max_g": 300, "incremento": 50 },
+    "smoothie abacaxi whey": { "min_g": 200, "max_g": 300, "incremento": 50 },
+
+    "gelatina comum": { "min_g": 80, "max_g": 150, "incremento": 10 },
+    "gelatina diet": { "min_g": 80, "max_g": 150, "incremento": 10 },
+    "doce de leite": { "min_g": 15, "max_g": 40, "incremento": 5 },
+
+    "mousse tradicional": { "min_g": 60, "max_g": 180, "incremento": 10 },
+    "mousse fit fruta": { "min_g": 60, "max_g": 180, "incremento": 10 },
+    "pave de limao fit": { "min_g": 60, "max_g": 180, "incremento": 10 },
+    "mousse limao whey": { "min_g": 60, "max_g": 180, "incremento": 10 },
+    "mousse maracuja whey": { "min_g": 60, "max_g": 180, "incremento": 10 },
+    "cheesecake fit frutas vermelhas": { "min_g": 120, "max_g": 120, "incremento": 10 },
+    "creme abacate com whey": { "min_g": 60, "max_g": 180, "incremento": 10 },
+
+    "banana com whey e canela": { "min_g": 80, "max_g": 180, "incremento": 10 },
+    "panqueca banana proteica": { "min_g": 80, "max_g": 180, "incremento": 10 }
+  }
+}

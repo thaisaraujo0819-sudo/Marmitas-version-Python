@@ -1,0 +1,28 @@
+{
+    "biometria": {
+        "nome": "thais",
+        "sobrenome": "araujo",
+        "peso": 80.0,
+        "altura": 160,
+        "idade": 12,
+        "sexo": "f",
+        "circuferencia cintura": 90.0
+    },
+    "rotina": {
+        "objetivo": "pp",
+        "nivel de exercicio": "s",
+        "gosta de doce": "s",
+        "refeicao preferida": "1",
+        "velocidade": "a",
+        "preferencia_vegetais": 20,
+        "preferencia_legumes": 20,
+        "suplementos": "n"
+    },
+    "alimentacao_original": {
+        "cafe da manha": "1",
+        "lanche da manha": "2",
+        "almoco": "2",
+        "lanche da tarde": "2",
+        "janta": "2"
+    }
+}
